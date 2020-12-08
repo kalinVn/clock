@@ -1,0 +1,59 @@
+.wrap{
+	 background-color: #cccccc40;
+}
+header{
+	margin-top:3%;
+	border-bottom:1px solid #ccc;
+}
+header h1, footer p{
+	text-align: center;
+	margin-bottom:3%;
+	
+}
+
+footer {
+	margin-top:3%;
+	border-top:1px solid #ccc;
+}
+.container-clock section{
+	min-height:85vh;
+}
+.row-home-top{
+	margin-top:3%;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.container-clock{
+	border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 2px 2px 5px #00000054;
+}
+
+nav, nav .nav-tabs{
+	width:100%;
+	
+}
+
+.tab-pane-clock{
+	width:100%;
+}
+.row-home-event{
+	margin-top:5%;
+}
+.row-home-event-left{
+	border-right:1px solid #dee2e6;
+}
+.row-home-event-left p {
+	text-align:center;
+	margin-top:5%;
+	font-weight:bold;
+	font-size:20px;
+}
+.row-home-event h1 {
+	text-align:center;
+	margin-top:5%;
+}
+
+

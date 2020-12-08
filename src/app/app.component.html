@@ -1,0 +1,76 @@
+<!--<app-home></app-home>-->
+<div class="wrap">
+	<div class='container container-clock'>
+		<header>
+			<h1>Clock Countdown app events</h1>
+		</header>
+		<section>
+			<div class="row row-home-top">
+				<nav>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-event-tab" 
+						data-toggle="tab" href="#nav-event" role="tab" aria-controls="nav-event" aria-selected="true">Event</a>
+						<a class="nav-item nav-link" id="nav-add-event-tab" data-toggle="tab" href="#nav-profile" 
+						role="tab" aria-controls="nav-profile" aria-selected="false">Add event</a>
+					</div>
+				</nav>
+				<div class="tab-content tab-pane-clock" id="nav-tabContent">
+				  <div class="tab-pane fade show active " id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+					<section>
+						<div class="row row-home-event">
+							
+							<div class="col-lg-6 col-md-6 col-sm-12 row-home-event-left">
+								<h1>Clock</h1>
+								<p style="color:red">{{message}}</p>
+								<div class="row">
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>Days</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>Hours</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>Minutes</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>Seconds</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>{{_days}}</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>{{_hours}}</p>	
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>{{_minutes}}</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+										<p>{{_seconds}}</p>
+									</div>
+								</div>
+								
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h1>Events</h1>
+							</div>
+						</div>
+					</section>
+				  </div>
+				  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-add-event-tab">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-clock-layout">
+						
+					</div>
+				  </div>
+				  
+				</div>
+				
+			</div>
+		</section>
+		<footer>
+			<p>Powered by {{firstName}} {{ lastName }} </p>
+		</footer>
+	</div>
+</div>
+
